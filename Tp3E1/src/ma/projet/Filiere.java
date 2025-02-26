@@ -1,7 +1,7 @@
 package ma.projet;
 
 public class Filiere {
-	private static int compt;
+	public static int compt;
 	private int id;
 	private String code;
 	private String libelle;
