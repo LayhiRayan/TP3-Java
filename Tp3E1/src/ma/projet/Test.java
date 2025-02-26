@@ -15,7 +15,6 @@ public class Test {
 		etudiants[3] = new Etudiant("Layhi", "Rayan", "0619480257", "layhi.rayan@gmail.com", "CNE719500", filieres[2]);
 
 		String f = "IRT";
-		System.out.println("La liste des étudiants de la filière " + f + " est:");
 
 		for (Etudiant e : etudiants) {
 			if (e.getFiliere().getCode().equals(f)) {
