@@ -1,7 +1,7 @@
 package ma.projet.organisation;
 
 public class Matiere {
-	static int comp = 0;
+	public static int comp = 0;
 	private int id;
 	private String code;
 	private String libelle;
