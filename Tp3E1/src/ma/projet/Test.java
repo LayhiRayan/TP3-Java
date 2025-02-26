@@ -4,7 +4,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		Filiere filieres[] = new Filiere[3];
-		filieres[0] = new Filiere("ma.Ingénierie des automatismes et informatique industrielle", "IAII");
+		filieres[0] = new Filiere("Ingénierie des automatismes et informatique industrielle", "IAII");
 		filieres[1] = new Filiere("Ingénierie des réseaux et télécommunications", "IRT");
 		filieres[2] = new Filiere("Ingénierie informatique et réseaux", "IIR");
 
