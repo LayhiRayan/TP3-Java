@@ -14,10 +14,10 @@ public class Test {
 		etudiants[2] = new Etudiant("Khardali", "Anas", "010283746", "khardali.anas@gmail.com", "CNE106529", filieres[0]);
 		etudiants[3] = new Etudiant("Layhi", "Rayan", "0619480257", "layhi.rayan@gmail.com", "CNE719500", filieres[2]);
 
-		String f = "IRT";
+		String fil = "IRT";
 
 		for (Etudiant e : etudiants) {
-			if (e.getFiliere().getCode().equals(f)) {
+			if (e.getFiliere().getCode().equals(fil)) {
 				System.out.println(e.getId() + " " + e.getCne() + " " + e.getNom() + " " + e.getPrenom());
 			}
 
